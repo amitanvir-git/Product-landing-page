@@ -1,0 +1,62 @@
+@media only  screen and (max-width:550px) {
+    #features .icon {
+        display: none;
+    }
+    
+    #features .info {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        height: 150px;
+    }
+}
+
+
+
+@media only  screen and (max-width:650px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        position: relative;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .logo > img {
+        margin: 0 auto;
+    }
+
+
+    nav{
+        margin-top: 5px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 50px;
+    }
+    .items {
+        flex-direction: column !important;
+    }
+    nav > ul > li {
+        margin-bottom: 5px;
+    }
+
+    .hero {
+        margin-top: 120px !important;
+    }
+
+
+    #pricing {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column !important;
+    }
+
+
+}
+
+
